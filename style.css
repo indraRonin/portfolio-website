@@ -166,23 +166,20 @@ main
 
 .secondSection {
     display: flex;
-    min-height: 100vh;
 }
 
 .third-section {
     display: flex;
-    min-height: 100vh;
 }
 
 .fourthSection {
     width: 100%;
-    min-height: 100vh;
 }
 
 .fifthSection {
     width: 100%;
-    margin-top: 100px;
-    padding-bottom: 50px;
+    margin-top: 5rem;
+    padding-bottom: 4rem;
 }
 
 .skill-box-prime {
