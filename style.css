@@ -186,7 +186,7 @@ main
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 6rem;
     gap: 20px;
 }
 
