@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #21618c7a;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.bolder
+{
+    color: #0056b3;
+}
+.res-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "Dela Gothic One", sans-serif;
+    text-shadow: 0px 0px rgba(0, 0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1.5px solid #000000;
+    color: #000000;
+    letter-spacing: 0.2em;
+}
+
+#resume:hover {
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+
+header
+{
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(97, 97, 242, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 15px;
+    color: white;
+    
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+
+nav ul li a::after {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out 0.1s;
+}
+
+nav ul li a:hover::after {
+    opacity: 1;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+main
+{
+    width: 100%;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    width: 100%;
+
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 2.2rem;
+    margin: 30px, 0;
+    font-weight: 580;
+    text-shadow: 1px 1.5px rgba(0, 0, 0, 0.6);
+}
+
+.text-styling-1 {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 1rem;
+    margin: 30px 0;
+    font-weight: 700;
+    text-shadow: 0px 0px rgba(0, 0, 0, 0);
+}
+
+.orange {
+    color: #FFA500;
+}
+
+.rightSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 50px 20px rgb(255, 255, 255);
+}
+
+#element {
+    color: #FFA500;
+}
+
+
+.secondSection {
+    display: flex;
+    min-height: 100vh;
+}
+
+.third-section {
+    display: flex;
+    min-height: 100vh;
+}
+
+.fourthSection {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.fifthSection {
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.skill-box-prime {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+}
+
+.skill-name {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+    color: black;
+}
+
+.skills-level {
+    font-size: 16px;
+    color: black;
+}
+
+
+.text-styling-2 {
+    font-family: "Dela Gothic One", sans-serif;
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.social-image-container {
+    display: flex;
+    gap: 20px;
+}
+
+#social-icon:hover {
+    opacity: 0.7;
+    transform: scale(0.7);
+}
+
+#social-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.hr-style {
+    border: none;
+    border-top: 2px solid #d3d3d3;
+    margin: 20px auto;
+    width: 70%;
+    opacity: 0.8;
+}
+
+.about-section {
+    font-family: "Poppins", system-ui;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.about-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    margin: 50px auto;
+    color: #333;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    width: 65%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 38%;
+    margin: auto;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: 4rem;
+    align-self: center;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.footer {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    font-family: "Dela Gothic One", sans-serif;
+    /* padding: 20px; */
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+}
+
+.footer h3{
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.footer ul li{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 30px;
+    color: #000000;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer ul li:hover {
+    opacity: 0.7;
+    transform: scale(0.8);
+}
+
+
+@media (max-width: 768px) {
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftSection, .rightSection {
+        flex: unset;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .leftSection div, .leftSection span {
+        font-size: 1rem; 
+    }
+
+    .image-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .secondSection, .third-section, .fourthSection, .fifthSection, .footer, .header
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .leftSection div, .leftSection span {
+        font-size: 0.9rem;
+    }
+
+    .social-image-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
