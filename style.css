@@ -407,6 +407,22 @@ footer ul li:hover {
     transform: scale(0.8);
 }
 
+.spin-image
+{
+    animation: spin 3s linear 1;
+}
+
+@keyframes spin{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+
 
 @media (max-width: 768px) {
     .firstSection {
